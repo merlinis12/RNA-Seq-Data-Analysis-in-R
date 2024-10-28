@@ -1,11 +1,8 @@
-# RNA-Seq-Data-Analysis-in-R
-RNA-Seq Data Analysis in R: From Raw Counts to Differential Expression Analysis
-
 # RNA-Seq Data Analysis in R Workshop
 
-**Date:** November 12th  
+**Date:** November 12th, 2024
 **Instructor:** Simona Merlini  
-**Level:** Intermediate  
+**Level:** Basic/Intermediate  
 **Requirements:** R, RStudio ([download link](https://rstudio-education.github.io/hopr/starting.html))  
 
 ## Overview
