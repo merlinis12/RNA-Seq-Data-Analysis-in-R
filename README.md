@@ -16,7 +16,7 @@ RNA-Seq is a widely used method for analyzing gene expression. This workshop foc
 
 ## Prerequisites
 - Basic knowledge of R and RStudio
-- DESeq2 package ([link](https://bioconductor.org/packages/release/bioc/html/DESeq2.html))
+- limma package ([link](https://bioconductor.org/packages/release/bioc/html/limma.html))
 
 ## Agenda
 1. **Introduction to RNA-Seq and Differential Expression**  
