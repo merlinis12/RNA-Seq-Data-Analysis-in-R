@@ -9,13 +9,16 @@
 RNA-Seq is a widely used method for analyzing gene expression. This workshop focuses on differential expression analysis using R, guiding participants through essential steps from raw count data to identifying differentially expressed genes.
 
 ### Objectives
-- Normalize RNA-Seq data
-- Model fitting and hypothesis testing
+- Understand the basics of RNA-seq data analysis
+- Perform normalization, model fitting, and hypothesis testing
 - Identify differentially expressed genes
-- Hands-on R code examples for independent analysis
+- KInterpret and visualize results
 
 ## Prerequisites
 - Basic knowledge of R and RStudio
+- install required R packages listed in 'requirements.R'
+
+## R packages
 - limma package ([link](https://bioconductor.org/packages/release/bioc/html/limma.html))
 
 ## Agenda
