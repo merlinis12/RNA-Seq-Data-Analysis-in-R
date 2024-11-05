@@ -37,4 +37,13 @@ RNA-Seq is a widely used method for analyzing gene expression. This workshop foc
 - [fgsea package for downstream analysis](https://bioconductor.org/packages/release/bioc/html/fgsea.html)
 - Example data: *(Provide a link to the demo dataset here)*
 
+## Reference
+- [RNA Sequencing and Analysis](https://pmc.ncbi.nlm.nih.gov/articles/PMC4863231/#:~:text=RNA%20sequencing%20(RNA%2DSeq),Crick%201958;%20Crick%201970)
+- [A Beginner’s Guide to Analysis of RNA Sequencing Data](https://pmc.ncbi.nlm.nih.gov/articles/PMC6096346/#:~:text=A%20major%20goal%20of%20RNA,unrelated%20to%20the%20designed%20experiment)
+- [RNA-seq data science: From raw data to effective interpretation](https://www.frontiersin.org/journals/genetics/articles/10.3389/fgene.2023.997383/full)
+- [Introduction to differential gene expression analysis using
+RNA-seq](http://www.bea.ki.se/documents/Intro2RNAseq.pdf)
+- [Standards, Guidelines and Best Practices for RNA-Seq](https://genome.ucsc.edu/ENCODE/protocols/dataStandards/ENCODE_RNAseq_Standards_V1.0.pdf)
+
+
 For questions or further guidance, feel free to reach out!
