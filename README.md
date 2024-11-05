@@ -16,7 +16,7 @@ RNA-Seq is a widely used method for analyzing gene expression. This workshop foc
 
 ## Prerequisites
 - Basic knowledge of R and RStudio
-- install required R packages listed in 'requirements.R'
+- install required R packages listed in [requirements.R](https://github.com/merlinis12/RNA-Seq-Data-Analysis-in-R/blob/main/requirements.R)
 
 
 ## Agenda
