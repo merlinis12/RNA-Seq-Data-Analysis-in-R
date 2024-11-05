@@ -38,7 +38,7 @@ RNA-Seq is a widely used method for analyzing gene expression. This workshop foc
 - Example data: *(Provide a link to the demo dataset here)*
 
 ## Reference
-- [RNA Sequencing and Analysis](https://pmc.ncbi.nlm.nih.gov/articles/PMC4863231/#:~:text=RNA%20sequencing%20(RNA%2DSeq),Crick%201958;%20Crick%201970)
+- [RNA Sequencing and Analysis](https://pmc.ncbi.nlm.nih.gov/articles/PMC4863231/#:~:text=RNA%20sequencing%20(RNA%2DSeq),Crick%201958;%20Crick%201970) Kukurba KR, Montgomery SB. RNA Sequencing and Analysis. Cold Spring Harb Protoc. 2015 Apr 13;2015(11):951-69. doi: 10.1101/pdb.top084970. PMID: 25870306; PMCID: PMC4863231.
 - [A Beginner’s Guide to Analysis of RNA Sequencing Data](https://pmc.ncbi.nlm.nih.gov/articles/PMC6096346/#:~:text=A%20major%20goal%20of%20RNA,unrelated%20to%20the%20designed%20experiment)
 - [RNA-seq data science: From raw data to effective interpretation](https://www.frontiersin.org/journals/genetics/articles/10.3389/fgene.2023.997383/full)
 - [Introduction to differential gene expression analysis using
