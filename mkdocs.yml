@@ -1,0 +1,133 @@
+site_name: RNA-Seq and Differential Expression Analysis in R 
+site_description: Website for RNA-Seq and Differential Expression Analysis in R Workshop
+site_author: Simona Merlini
+site_url: https://merlinis12.github.io/RNA-Seq-Data-Analysis-in-R
+
+# Repository
+repo_name: RNA-Seq-Data-Analysis-in-R
+repo_url: https://github.com/merlinis12/RNA-Seq-Data-Analysis-in-R
+edit_uri: edit/main/docs/
+# Copyright
+copyright: 'Copyright &copy; 2024 Merlini Simona'
+
+
+
+# Configuration
+theme:
+  name: material
+
+  # 404 page
+  static_templates:
+    - 404.html
+
+  # Don't include MkDocs' JavaScript
+  include_search_page: false
+  search_index_only: true
+
+  # Default values, taken from mkdocs_theme.yml
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default 
+      primary: green
+      accent: orange
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: white
+      accent: orange
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+  font:
+    text: Roboto
+    code: Regular
+  favicon: material/cat
+  icon:
+    logo: material/glasses
+    admonition:
+      note: material/map-marker-radius-outline
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - toc.integrate
+
+# Page tree
+nav:
+  - Home: index.md
+
+#Options
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/merlinis12
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/simona-merlini-42a336200
+
+  analytics:
+    provider: google
+    property: UA-72224033-6
+ 
+
+  
+# Extensions
+markdown_extensions:
+  - admonition
+  - abbr
+  - attr_list
+  - def_list
+  - footnotes
+  - meta
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+extra_css:
+  - stylesheets/extra.css
+ 
+plugins:
+  - search
+  - mkdocstrings:
+      #custom_templates: templates
+      default_handler: python
+      handlers:
+        python:
+          options:
+            show_source: false
+  - git-revision-date
+  - mkdocs-jupyter:
+        include_source: True
+        ignore_h1_titles: True
