@@ -10,6 +10,7 @@ RNA-Seq is a widely used method for analyzing gene expression. This workshop foc
 
 ## Workshop material
 Check out [Wiki](https://github.com/merlinis12/RNA-Seq-Data-Analysis-in-R/wiki) for worshop materials.
+
 Check out the [Data Science Institute](https://datascience.arizona.edu/calendar) from University of Arizona for more events.
 
 ## R demo
