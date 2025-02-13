@@ -1,6 +1,6 @@
 # RNA-Seq Data Analysis in R Workshop
 
-**Date:** Febraury 13rd
+**Date:** February 13th
 
 **Instructor:** [Simona Merlini](https://merlinis12.github.io/merlinisimona.github.io/)  
 **Level:** Basic/Intermediate  
